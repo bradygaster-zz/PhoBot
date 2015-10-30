@@ -77,10 +77,10 @@ int PhoBot::setMotors(String command) {
         setMotor(M4, direction, speed);
     }
     else if (motorName.equalsIgnoreCase("M1")) {
-        setMotor(M1, FORWARD, speed);
+        setMotor(M1, direction, speed);
     }
     else if (motorName.equalsIgnoreCase("M2")) {
-        setMotor(M2, FORWARD, speed);
+        setMotor(M2, direction, speed);
     }
     return 1;
 }
